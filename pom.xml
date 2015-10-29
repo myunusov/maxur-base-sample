@@ -99,6 +99,10 @@
         </profile>
     </profiles>
 
+    <modules>
+        <module>maxur-base-sample-junit</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
