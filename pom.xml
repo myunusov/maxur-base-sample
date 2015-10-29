@@ -97,6 +97,15 @@
         <profile>
             <id>env-prod</id>
         </profile>
+        <profile>
+            <id>inspect</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>qa</value>
+                </property>
+            </activation>
+        </profile>
     </profiles>
 
     <modules>
