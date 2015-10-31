@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title>Project Summary | maxur-base-sample-junit</title>
+		<title>Checkstyle Results | maxur-base-sample-junit</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -35,7 +35,7 @@
 <link rel="author" href="https://plus.google.com/+MaximYunusov"/>
 	</head>
 
-	<body class="page-project-summary project-maxur-base-sample-junit" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
+	<body class="page-checkstyle project-maxur-base-sample-junit" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
 
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -60,7 +60,7 @@
 										<a href="project-info.html" title="Project Information">Project Information</a>
 										<ul class="dropdown-menu">
 											<li ><a href="index.html" title="About">About</a></li>
-											<li class="active"><a href="" title="Project Summary">Project Summary</a></li>
+											<li ><a href="project-summary.html" title="Project Summary">Project Summary</a></li>
 											<li ><a href="license.html" title="Project License">Project License</a></li>
 											<li ><a href="team-list.html" title="Project Team">Project Team</a></li>
 											<li ><a href="issue-tracking.html" title="Issue Tracking">Issue Tracking</a></li>
@@ -73,7 +73,7 @@
 									<li class="dropdown-submenu ">
 										<a href="project-reports.html" title="Project Reports">Project Reports</a>
 										<ul class="dropdown-menu">
-											<li ><a href="checkstyle.html" title="Checkstyle">Checkstyle</a></li>
+											<li class="active"><a href="" title="Checkstyle">Checkstyle</a></li>
 											<li ><a href="surefire-report.html" title="Surefire Report">Surefire Report</a></li>
 											<li ><a href="dependency-updates-report.html" title="Dependency Updates Report">Dependency Updates Report</a></li>
 											<li ><a href="plugin-updates-report.html" title="Plugin Updates Report">Plugin Updates Report</a></li>
@@ -115,7 +115,7 @@
 				<li class="divider">/</li>
 				<li><a href="./" title="junit">junit</a></li>
 				<li class="divider">/</li>
-				<li>Project Summary</li>
+				<li>Checkstyle Results</li>
 			</ul>
 		</div>
 		<hr class="toc-separator" />
@@ -129,11 +129,25 @@
 					</a>
 					<div class="nav-collapse collapse" id="toc-nav-collapse">
 						<ul id="toc" class="nav">
-						<li class="toplevel"><a href="#Project_Summary" title="Project Summary">Project Summary</a></li>
-						<li class="toplevel"><a href="#Project_Information" title="Project Information">Project Information</a></li>
-						<li class="toplevel"><a href="#Project_Organization" title="Project Organization">Project Organization</a></li>
-						<li class="toplevel"><a href="#Build_Information" title="Build Information">Build Information</a></li>
-						<li class="toplevel"><a href="#Download" title="Download">Download</a></li>
+						<li class="toplevel"><a href="#Checkstyle_Results" title="Checkstyle Results">Checkstyle Results</a></li>
+						<li class="divider-vertical"></li>
+						<li class="toplevel"><a href="#Summary" title="Summary">Summary</a></li>
+						<li class="divider-vertical"></li>
+						<li class="toplevel"><a href="#Files" title="Files">Files</a></li>
+						<li class="divider-vertical"></li>
+						<li class="toplevel"><a href="#Rules" title="Rules">Rules</a></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown">
+							<a href="#Details" title="Details" class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#">Details <b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<!-- Repeat the item, otherwise it is not clickable as the dropdown root -->
+								<li><a href="#Details" title="Details">Details</a></li>
+								<li class="divider"></li>
+								<li><a href="#orgmaxursamplejunitMainjava" title="org/maxur/sample/junit/Main.java">org/maxur/sample/junit/Main.java</a></li>
+								<li><a href="#orgmaxursamplejunitpackage-infojava" title="org/maxur/sample/junit/package-info.java">org/maxur/sample/junit/package-info.java</a></li>
+
+							</ul>
+						</li>
 						</ul>
 					</div>
 				</div>
@@ -147,95 +161,145 @@
 			<div class="body-content">
 <div class="section"> 
  <div class="page-header">
-  <h2 id="Project_Summary">Project Summary</h2>
+  <h2 id="Checkstyle_Results">Checkstyle Results</h2>
  </div> 
- <a name="Project_Summary"></a> 
+ <p>The following document contains the results of <a class="externalLink" href="http://checkstyle.sourceforge.net/">Checkstyle</a> 6.11.2 with sun_checks.xml ruleset.&nbsp;<a href="checkstyle.rss"><img alt="rss feed" src="images/rss.png" /></a></p> 
+</div> 
+<div class="section"> 
+ <h2 id="Summary">Summary</h2> 
+ <table border="0" class="bodyTable table table-striped table-hover"> 
+  <thead> 
+   <tr class="a"> 
+    <th>Files</th> 
+    <th><i class="icon-info-sign"></i>&nbsp;Info</th> 
+    <th><i class="icon-warning-sign"></i>&nbsp;Warnings</th> 
+    <th><i class="icon-exclamation-sign"></i>&nbsp;Errors</th> 
+   </tr> 
+  </thead> 
+  <tbody> 
+   <tr class="b"> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td>3</td> 
+   </tr> 
+  </tbody> 
+ </table> 
+</div> 
+<div class="section"> 
+ <h2 id="Files">Files</h2> 
+ <table border="0" class="bodyTable table table-striped table-hover"> 
+  <thead> 
+   <tr class="a"> 
+    <th>File</th> 
+    <th><i class="icon-info-sign"></i>&nbsp;I</th> 
+    <th><i class="icon-warning-sign"></i>&nbsp;W</th> 
+    <th><i class="icon-exclamation-sign"></i>&nbsp;E</th> 
+   </tr> 
+  </thead> 
+  <tbody> 
+   <tr class="b"> 
+    <td><a href="#org.maxur.sample.junit.Main.java">org/maxur/sample/junit/Main.java</a></td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td>1</td> 
+   </tr> 
+   <tr class="a"> 
+    <td><a href="#org.maxur.sample.junit.package-info.java">org/maxur/sample/junit/package-info.java</a></td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td>2</td> 
+   </tr> 
+  </tbody> 
+ </table> 
+</div> 
+<div class="section"> 
+ <h2 id="Rules">Rules</h2> 
+ <table border="0" class="bodyTable table table-striped table-hover"> 
+  <thead> 
+   <tr class="b"> 
+    <th>Category</th> 
+    <th>Rule</th> 
+    <th>Violations</th> 
+    <th>Severity</th> 
+   </tr> 
+  </thead> 
+  <tbody> 
+   <tr class="a"> 
+    <td>coding</td> 
+    <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_coding.html#MagicNumber">MagicNumber</a></td> 
+    <td>1</td> 
+    <td><i class="icon-exclamation-sign"></i>&nbsp;Error</td> 
+   </tr> 
+   <tr class="b"> 
+    <td>javadoc</td> 
+    <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_javadoc.html#JavadocStyle">JavadocStyle</a></td> 
+    <td>1</td> 
+    <td><i class="icon-exclamation-sign"></i>&nbsp;Error</td> 
+   </tr> 
+   <tr class="a"> 
+    <td>misc</td> 
+    <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_misc.html#NewlineAtEndOfFile">NewlineAtEndOfFile</a></td> 
+    <td>1</td> 
+    <td><i class="icon-exclamation-sign"></i>&nbsp;Error</td> 
+   </tr> 
+  </tbody> 
+ </table> 
+</div> 
+<div class="section"> 
+ <h2 id="Details">Details</h2> 
  <div class="section"> 
-  <h3 id="Project_Information">Project Information</h3> 
-  <a name="Project_Information"></a> 
+  <h3 id="orgmaxursamplejunitMainjava">org/maxur/sample/junit/Main.java</h3> 
   <table border="0" class="bodyTable table table-striped table-hover"> 
    <thead> 
-    <tr class="a"> 
-     <th>Field</th> 
-     <th>Value</th> 
+    <tr class="b"> 
+     <th>Severity</th> 
+     <th>Category</th> 
+     <th>Rule</th> 
+     <th>Message</th> 
+     <th>Line</th> 
     </tr> 
    </thead> 
    <tbody> 
-    <tr class="b"> 
-     <td>Name</td> 
-     <td>maxur-base-sample-junit</td> 
-    </tr> 
     <tr class="a"> 
-     <td>Description</td> 
-     <td>maxur-base-sample is a set of examples for maxur-base project.</td> 
-    </tr> 
-    <tr class="b"> 
-     <td>Homepage</td> 
-     <td><a class="externalLink" href="http://myunusov.github.io/maxur-base/maxur-base-sample-junit/">http://myunusov.github.io/maxur-base/maxur-base-sample-junit/</a></td> 
+     <td><i class="icon-exclamation-sign"></i>&nbsp;Error</td> 
+     <td>coding</td> 
+     <td>MagicNumber</td> 
+     <td>'3' is a magic number.</td> 
+     <td><a href="./xref/org/maxur/sample/junit/Main.html#L51">51</a></td> 
     </tr> 
    </tbody> 
   </table> 
  </div> 
  <div class="section"> 
-  <h3 id="Project_Organization">Project Organization</h3> 
-  <a name="Project_Organization"></a> 
+  <h3 id="orgmaxursamplejunitpackage-infojava">org/maxur/sample/junit/package-info.java</h3> 
   <table border="0" class="bodyTable table table-striped table-hover"> 
    <thead> 
-    <tr class="a"> 
-     <th>Field</th> 
-     <th>Value</th> 
+    <tr class="b"> 
+     <th>Severity</th> 
+     <th>Category</th> 
+     <th>Rule</th> 
+     <th>Message</th> 
+     <th>Line</th> 
     </tr> 
    </thead> 
    <tbody> 
-    <tr class="b"> 
-     <td>Name</td> 
-     <td>Maxim Yunusov</td> 
-    </tr> 
     <tr class="a"> 
-     <td>URL</td> 
-     <td><a class="externalLink" href="http://www.maxur.org">http://www.maxur.org</a></td> 
+     <td><i class="icon-exclamation-sign"></i>&nbsp;Error</td> 
+     <td>misc</td> 
+     <td>NewlineAtEndOfFile</td> 
+     <td>File does not end with a newline.</td> 
+     <td></td> 
+    </tr> 
+    <tr class="b"> 
+     <td><i class="icon-exclamation-sign"></i>&nbsp;Error</td> 
+     <td>javadoc</td> 
+     <td>JavadocStyle</td> 
+     <td>First sentence should end with a period.</td> 
+     <td><a href="./xref/org/maxur/sample/junit/package-info.html#L1">1</a></td> 
     </tr> 
    </tbody> 
   </table> 
- </div> 
- <div class="section"> 
-  <h3 id="Build_Information">Build Information</h3> 
-  <a name="Build_Information"></a> 
-  <table border="0" class="bodyTable table table-striped table-hover"> 
-   <thead> 
-    <tr class="a"> 
-     <th>Field</th> 
-     <th>Value</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr class="b"> 
-     <td>GroupId</td> 
-     <td>org.maxur</td> 
-    </tr> 
-    <tr class="a"> 
-     <td>ArtifactId</td> 
-     <td>maxur-base-sample-junit</td> 
-    </tr> 
-    <tr class="b"> 
-     <td>Version</td> 
-     <td>0.1-SNAPSHOT</td> 
-    </tr> 
-    <tr class="a"> 
-     <td>Type</td> 
-     <td>jar</td> 
-    </tr> 
-    <tr class="b"> 
-     <td>Java Version</td> 
-     <td>1.8</td> 
-    </tr> 
-   </tbody> 
-  </table> 
- </div> 
- <div class="section"> 
-  <h3 id="Download">Download</h3> 
-  <a name="Download"></a> 
-  <a class="externalLink" href="https://oss.sonatype.org/content/groups/public">https://oss.sonatype.org/content/groups/public</a> 
  </div> 
 </div>
 			</div>
@@ -255,39 +319,36 @@
 						<li class="nav-header">Documentation</li>
 						<li class="nav-header">Documentation</li>
 						<li >
-							<a href="project-info.html" title="Project Information">Project Information <i class="icon-chevron-down"></i></a>
+							<a href="project-info.html" title="Project Information">Project Information <i class="icon-chevron-right"></i></a>
+						</li>
+						<li >
+							<a href="project-reports.html" title="Project Reports">Project Reports <i class="icon-chevron-down"></i></a>
 							<ul class="nav nav-list">
-						<li >
-							<a href="index.html" title="About">About</a>
-						</li>
 						<li class="active">
-							<a href="#" title="Project Summary">Project Summary</a>
+							<a href="#" title="Checkstyle">Checkstyle</a>
 						</li>
 						<li >
-							<a href="license.html" title="Project License">Project License</a>
+							<a href="surefire-report.html" title="Surefire Report">Surefire Report</a>
 						</li>
 						<li >
-							<a href="team-list.html" title="Project Team">Project Team</a>
+							<a href="dependency-updates-report.html" title="Dependency Updates Report">Dependency Updates Report</a>
 						</li>
 						<li >
-							<a href="issue-tracking.html" title="Issue Tracking">Issue Tracking</a>
+							<a href="plugin-updates-report.html" title="Plugin Updates Report">Plugin Updates Report</a>
 						</li>
 						<li >
-							<a href="source-repository.html" title="Source Repository">Source Repository</a>
+							<a href="apidocs-0.1-SNAPSHOT/index.html" title="JavaDocs">JavaDocs</a>
 						</li>
 						<li >
-							<a href="integration.html" title="Continuous Integration">Continuous Integration</a>
+							<a href="cobertura/index.html" title="Cobertura Test Coverage">Cobertura Test Coverage</a>
 						</li>
 						<li >
-							<a href="dependencies.html" title="Dependencies">Dependencies</a>
+							<a href="changelog.html" title="Change Log">Change Log</a>
 						</li>
 						<li >
-							<a href="plugins.html" title="Project Plugins">Project Plugins</a>
+							<a href="file-activity.html" title="File Activity">File Activity</a>
 						</li>
 							</ul>
-						</li>
-						<li >
-							<a href="project-reports.html" title="Project Reports">Project Reports <i class="icon-chevron-right"></i></a>
 						</li>
 					</ul>
 				</div>

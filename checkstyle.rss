@@ -19,9 +19,9 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>maxur-base-sample - Checkstyle report</title>
-    <link>http://myunusov.github.io/maxur-base/</link>
-    <description>maxur-base-sample - Checkstyle report</description>
+    <title>maxur-base-sample-junit - Checkstyle report</title>
+    <link>http://myunusov.github.io/maxur-base/maxur-base-sample-junit/</link>
+    <description>maxur-base-sample-junit - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2015 Maxim Yunusov</copyright>
     <item>
@@ -30,9 +30,9 @@ under the License.
              Warnings: 0,
              Infos: 0
       </title>
-            <link>http://myunusov.github.io/maxur-base//checkstyle.html</link>
+            <link>http://myunusov.github.io/maxur-base/maxur-base-sample-junit//checkstyle.html</link>
       <description>
-        <p>Click <a href="http://myunusov.github.io/maxur-base//checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="http://myunusov.github.io/maxur-base/maxur-base-sample-junit//checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://myunusov.github.io/maxur-base//checkstyle.html#org.maxur.sample.junit.package-info.java">org/maxur/sample/junit/package-info.java</a>
+                  <a href="http://myunusov.github.io/maxur-base/maxur-base-sample-junit//checkstyle.html#org.maxur.sample.junit.package-info.java">org/maxur/sample/junit/package-info.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://myunusov.github.io/maxur-base//checkstyle.html#org.maxur.sample.junit.Main.java">org/maxur/sample/junit/Main.java</a>
+                  <a href="http://myunusov.github.io/maxur-base/maxur-base-sample-junit//checkstyle.html#org.maxur.sample.junit.Main.java">org/maxur/sample/junit/Main.java</a>
                 </td>
                 <td>
                   0
