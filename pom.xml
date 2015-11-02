@@ -7,13 +7,18 @@
     <parent>
         <groupId>org.maxur</groupId>
         <artifactId>maxur-base</artifactId>
-        <version>0.8-SNAPSHOT</version>
+        <version>0.9</version>
     </parent>
 
     <artifactId>maxur-base-sample</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>maxur-base-sample</name>
+
+    <properties>
+        <site.path>${basedir}/src/site</site.path>
+        <site.skip>false</site.skip>
+    </properties>
 
     <description><![CDATA[
         maxur-base-sample is a set of examples for maxur-base project.

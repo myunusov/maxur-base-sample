@@ -7,7 +7,7 @@
   <custom>
     <reflowSkin>
       <pages>
-        <index project="maxur-base-sample-junit" combine.self="override">
+        <index project="junit" combine.self="override">
           <!-- no ToC on the index page -->
           <toc>false</toc>
         </index>
@@ -18,7 +18,7 @@
   <body>
 
     <breadcrumbs>
-      <item name="junit" href="/" />
+      <item name="JUnit" href="/" />
     </breadcrumbs>
 
   </body>
