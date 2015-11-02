@@ -19,7 +19,7 @@
         maxur-base-sample is a set of examples for maxur-base project.
         ]]></description>
 
-    <url>http://myunusov.github.io/maxur-base/</url>
+    <url>http://myunusov.github.io/maxur-base-sample/</url>
     <inceptionYear>2015</inceptionYear>
 
     <organization>
@@ -43,7 +43,6 @@
         </developer>
     </developers>
 
-
     <licenses>
         <license>
             <name>Apache 2</name>
@@ -63,6 +62,8 @@
     <distributionManagement>
         <!-- Deploy site -->
         <site>
+            <id>${github.global.server}</id>
+            <name>Deployment through GitHub's site deployment plugin</name>
             <url>git:ssh://git@github.com/myunusov/maxur-base-sample.git?gh-pages#</url>
         </site>
     </distributionManagement>
