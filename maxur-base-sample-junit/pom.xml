@@ -13,5 +13,6 @@
     <artifactId>maxur-base-sample-junit</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <name>maxur-base-sample-junit</name>
 
 </project>

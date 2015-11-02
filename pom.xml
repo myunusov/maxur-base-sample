@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.maxur</groupId>
         <artifactId>maxur-base</artifactId>
-        <version>0.8-SNAPSHOT</version>
+        <version>0.9</version>
     </parent>
 
     <artifactId>maxur-base-sample</artifactId>
@@ -15,11 +15,17 @@
     <packaging>pom</packaging>
     <name>maxur-base-sample</name>
 
+    <properties>
+        <site.path>${basedir}/src/site</site.path>
+        <site.skip>false</site.skip>
+    </properties>
+
     <description><![CDATA[
         maxur-base-sample is a set of examples for maxur-base project.
         ]]></description>
 
     <url>http://myunusov.github.io/maxur-base/</url>
+
     <inceptionYear>2015</inceptionYear>
 
     <organization>
@@ -63,6 +69,8 @@
     <distributionManagement>
         <!-- Deploy site -->
         <site>
+            <id>${github.global.server}</id>
+            <name>Deployment through GitHub's site deployment plugin</name>
             <url>git:ssh://git@github.com/myunusov/maxur-base-sample.git?gh-pages#</url>
         </site>
     </distributionManagement>
